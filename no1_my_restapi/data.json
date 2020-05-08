@@ -1,0 +1,1 @@
+[{"model": "api.book", "pk": 1, "fields": {"title": "\u897f\u6e38\u8bb0", "price": "1.11"}}, {"model": "api.book", "pk": 2, "fields": {"title": "\u4e09\u56fd\u6f14\u4e49", "price": "2.22"}}]

@@ -1,0 +1,1 @@
+[{"model": "api.user", "pk": 1, "fields": {"name": "\u5c0f\u5f20", "pwd": "111", "phone": "111", "sex": 0, "icon": "icon/default.jpg"}}, {"model": "api.user", "pk": 2, "fields": {"name": "\u5c0f\u738b", "pwd": "222", "phone": "222", "sex": 1, "icon": "icon/default.jpg"}}]
