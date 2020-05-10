@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "eb312549-d88a-4f87-83a9-a9efa6b3cdcc",
+		"name": "no12_drf_permission",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "anonymous_get",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "auth abc.123.xyz",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/test3/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"test3",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user_with_permission_post",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "auth abc.123.xyz"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/test3/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"test3",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
